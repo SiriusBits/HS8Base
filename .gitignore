@@ -24,3 +24,39 @@ temp/
 *.ncrunchproject
 *.ncrunchsolution
 .vscode
+
+
+built/Data
+built/Databases
+built/Website
+PublishProfiles/ProdA.pubxml
+PublishProfiles/ProdB.pubxml
+App_Config/ConnectionStrings.Dev.config
+Web.Dev.config
+
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+#NuGet
+packages/
+
+#ncrunch
+*ncrunch*
+*crunch*.local.xml
+
+# Sass
+proto/.sass-cache
+proto/.sass-cache/
+proto/.tmp
+proto/node_modules
+proto/app/bower_components
+
+#Foundation
+proto/source/css/*
+proto/source/.sass-cache/*
+
+#Local Ignores
